@@ -1,3 +1,3 @@
 # truculent-giants-5898
 
-# Here i am creating cloning of Stylecare Website.
+# Here i am creating cloning of Stylecraze Website.
