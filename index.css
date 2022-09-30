@@ -7,7 +7,7 @@ body {
     margin: 0px;
     padding: 0px;
 } 
-
+ 
 #header{
    display: block;
    /* position: fixed; */
@@ -742,8 +742,10 @@ input[type="text"]{
     height: 32px;
     background-color: #DEDFE1;
     margin: 10px;
-    padding: 16px;
     list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
