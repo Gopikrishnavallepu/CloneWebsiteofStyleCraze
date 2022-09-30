@@ -1,0 +1,310 @@
+body {
+    font-family: Poppins,Poppins-Hindi,sans-serif;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #333;
+    background-color: #fff;
+    margin: 0px;
+    padding: 0px;
+    /* border: 1px solid red; */
+} 
+
+.header{
+    width: 1908px;
+    height:50px;
+    background-color: #fff;
+    border: 0px solid;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    position: fixed;
+
+}
+
+.head-nav{
+    margin-top: -45px;
+    cursor: pointer;
+}
+
+#menu{
+    display: inline-block;
+    position: relative;
+    left: 310px;
+    top: 2px;
+    font-size: 30px;
+    color: #FF5A78;
+    cursor: pointer;
+}
+
+*{
+    box-sizing: border-box;
+}
+.header div{
+    text-align: center;
+    height: 50px;
+}
+
+.conatainer{
+    display: flex;
+    
+}
+.nav-container{
+    border: 0px solid red;
+    width: 1280px;
+    margin: auto;
+    padding: 50px 0 5px 0;
+    
+    
+}
+
+.nav-container a{
+    text-decoration: none;
+    color: #FF5A78;
+    /* display: inline; */
+    font-size: 15px;
+    cursor: pointer;
+}  
+
+.makeup{
+    width:1280px;
+    font-size: 34px;
+    letter-spacing: 1.1px;
+    margin: 32px 0 32px 320px;
+    border: 0px solid;
+    text-align: center;  
+    font-weight: 500;
+}
+
+.linered{
+    border: 1px solid #FF5A78;
+    margin: auto;
+    width: 90px;
+    
+}
+
+.grid-collection{
+    width: 1280px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 20px;
+   
+}
+
+.grid-child-box{
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    font-size: 15px;
+    border: 2px solid #FF5A78;
+}
+
+.grid-child-box a{
+    text-decoration: none;
+    color: #333;
+    
+
+}
+.grid-child-box a:hover{
+    color: #fff;
+}
+.grid-child-box:hover{
+    background-color: #FF5A78;
+    color: #fff; 
+}
+
+
+.br-cont{
+    width: 1280px;
+    margin: 40px 0 0 310px;
+    display: flex;
+    border: 0px solid red;
+}
+
+.bg-cr{
+    width: 560x;
+    height: 810px;
+    background-color:#f9f9f9 ;
+    display: flex;
+   
+    
+}
+
+.content-lt{
+    width: 560px;
+    height: 256px;
+    margin: auto;
+    border: 0px solid red;
+    text-align: center;
+    padding: 0 60px;
+    
+    
+   
+}
+.content-title{
+    margin: 16px 0;
+   
+}
+
+.content-details{
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.content-title a{
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+    font-weight: 100;
+    line-height: 34px;
+}
+
+.author-details{
+    text-align: left;
+    /* margin-top: 210px; */
+    font-size: 14px;
+    font-weight: 700;
+    color: #757575;
+    display: block;
+}
+
+.space-cont{
+    margin-top: 210px;
+}
+
+.author-details a{
+    text-decoration: none;
+    color: #FF5A78;
+}
+
+.three-pic-cont{
+    display: flex;
+    width: 1280px;
+    margin: 40px 0 0 310px;
+    border: 0px solid;
+    justify-content: center;
+    gap: 40px;
+    
+}
+
+.pg{
+    border: 1px solid red;
+    width: 1280px;
+    height: 50px;
+    margin: 40px 0 40px 310px;
+}
+
+
+
+.footer-top{
+    height: 270px;
+    display: flex;
+    margin: auto;
+    background-color: #f2f2f2
+}
+
+.ft-top{
+    display: flex;
+    margin: auto;
+}
+
+.left-ft{
+    height: 200px;
+    width:610px;
+    border: 0px solid red;
+
+}
+
+.left-ft-list{
+    display: flex;
+    margin: auto;
+}
+
+.left-ft-list ul li{
+    width: 292px;
+    font-size: 16px;
+    list-style: none;
+    line-height: 30px;
+   
+}
+
+.left-ft-list ul li a{
+    text-decoration: none;
+    color: #333333;
+
+}
+.right-ft{
+    height: 190px;
+    width: 640px;
+    border: 0px solid red;
+    display: flex;
+
+}
+
+.follus{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1.1px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+.right-ft-follow{
+    width: 320px;
+    
+}
+.sm-icons ul{
+    display: flex; 
+    cursor: pointer;
+}
+
+.sm-icons ul li{
+    width: 32px;
+    height: 32px;
+    background-color: #DEDFE1;
+    margin: 10px;
+    /* padding: 16px; */
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sistersites ul{
+    font-size: 16px;
+    list-style: none;
+    line-height: 30px;
+
+}
+
+.sistersites ul a{
+    text-decoration: none;
+    color: #333333;
+}
+
+.cpy{
+    background-color: #EBEBEB;
+    text-align: center;
+}
+
+
+.cpy-fl p{
+    font-size: 17px;
+    margin: 0px;
+}
+.cpy-cont{
+    width: 820px;
+    font-size: 14px;
+    line-height: 22px;
+    padding: 1px 0;
+    text-align: center;
+    margin: auto;
+}
+
+.cpy-cont p{
+    margin: 0px;
+}
