@@ -10,7 +10,10 @@ body {
  
 #header{
    display: block;
-   /* position: fixed; */
+   position: sticky;
+   top: 0px;
+   background-color: #fff;
+   height: 110px;
    /* z-index: 999; */
    
 }
@@ -125,7 +128,6 @@ input[type="text"]{
     box-sizing: border-box;
     display: flex;
     list-style:none;
-
 }
 
 .imgs{
