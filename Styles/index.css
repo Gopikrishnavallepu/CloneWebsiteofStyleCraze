@@ -13,6 +13,12 @@ body img:hover{
     opacity: .8;
     overflow: hidden;
     float: none;
+    z-index: 1;
+}
+
+body img{
+    position: relative;
+    z-index: 1;
 }
 
 
@@ -24,57 +30,49 @@ body img:hover{
    background-color: #fff;
    transition: 0.2s;
    height: 110px;
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-   
-   
+   z-index: 99;
+   border: 0px solid red;
+     
 }
 
 .container{
 	height: 60px;
-	width: 1280px;
-	margin: 0px 312px;
+	width: 100%;
 	padding: 10px 0px;
     box-sizing: border-box;
-    outline: 0px solid red;
+    border: 0px solid red;
 }
 
 .logocontainer{
 	height: 40px;
-	width: 1280px;
 	position: static;
 	display: flex;
 	box-sizing: border-box;
     border: 0px solid red;
-    margin: 0 0 0 125px;
+   
 }
 
 .logo{
     text-align: center;
-	height: 40px;
-	width: 860px;
     border: 0px solid red;
-    /* margin: auto; */
+    margin: 0 0 0 40%;
 }
 
  .logo > h1 > a > img {
-	height: 40px;
-	width: 360px;
-	/* display: inline-block; */
     position: relative;
     top: -10px;
     transition: 0.2s;
     
  }
 
-.wrap{
+ .wrap{
     height: 34px;
     width: 222.625px;
     padding: 0 15px 0 15px;
     position: relative;
+    margin: 0 0 0 10%;
     display: block;
-    border: 0px solid red;
-    box-sizing: border-box; 
-}
+} 
 
 form{
     width: 192.625px;
@@ -109,7 +107,7 @@ input[type="text"]{
     box-sizing: border-box;
     border-radius: 0px 20px 20px 0px;
     height: 34px;
-    width: 40px;
+    /* width: 40px; */
     border-top: 1px solid  #CCCCCC;
     border-right: 1px solid  #CCCCCC;
     border-bottom: 1px solid  #CCCCCC;
@@ -120,15 +118,14 @@ input[type="text"]{
 
 .nav-container{
     border: 0px solid red;
-    width: 1903px;
+    width: 100%;
    
 }
 
 .nav-container-inside{
     border: 0px dashed red;
-    width: 1280px;
-    margin: auto;
     box-sizing: border-box;
+    margin: 10px 0 0 350px;
 }
 
 .dropdown:hover .submenu-dropdown{
@@ -191,18 +188,15 @@ input[type="text"]{
 
 .sbmenu{
     border: 0px dashed blue;
-    margin: 10px 85px;
+    margin: 10px 20px;
     box-sizing: border-box;
     display: flex;
     list-style:none;
     /* position: relative; */
-    justify-content: space-between;
     transition: 0.2s;
 }
 
-.imgs{
-    display: block;
-}
+
 
 *{
     box-sizing: border-box;
@@ -214,7 +208,7 @@ input[type="text"]{
     font-weight: 500;
     letter-spacing: 1px;
     border-right: 2px solid #FE5C75;
-    padding: 0 10px 0 0; 
+    padding: 0 4px; 
     cursor: pointer;   
     color:#000000;
 }
@@ -226,22 +220,28 @@ input[type="text"]{
 
 
 .banner-3pics{
-    border: 0px solid;
-    width: 100%;
-    height: 500px;
-    display: block;
-    /* position: relative; */
-       
+    border: 0px solid blue;
+    /* position: relative; */   
 }
 
 
 #img3-container{
     border: 0px solid blue;
     display: flex;
-    height: 554px; 
-    width: 1480px;
+    width: 100%;
     margin: auto;
     cursor: pointer;
+    justify-content: center;
+}
+
+.imgs a img{
+    width: 100%;
+}
+
+.imgs{
+    border: 0px solid red;
+    width: 31%;
+    
 }
 
 .story-content{
@@ -259,28 +259,27 @@ input[type="text"]{
 .makeup-container{
     border: 0px solid red;
     height: auto;
-    width: 1280px;
-    margin: 150px 312px 0 312px;
-    padding: 0 15px 0 15px;
-    display: block;
+    width: 86%;
+    margin: auto;
+    margin-top: 50px;
+   
 }
 
 .sm-follower{
     height: 58px;
-    width: 1300px;
+    width: 100%;
     border: 0px solid blue;
     display: flex;
+    justify-content: space-between;
+    margin: auto;
    
 }
 
 .sm-img{
     height: 58px;
-    width: 418px;
+    width: 32%;
     border: 0px solid blue;
     background-color: #EBEBEB;
-    font-size: 14px;
-    line-height: 20px;
-    margin: 0 10px 0 0;
  }
  
  .split{
@@ -331,7 +330,6 @@ input[type="text"]{
      color: #bd0f1c;
      font-size: 19px;
      font-weight: 700;
- 
      padding: 20px 0 20px 20px;
      height: 56px;
      width: 209px; 
@@ -346,15 +344,16 @@ input[type="text"]{
 
 .sbmenu-title > a{
     height: 51px;
-    width: 1250px;
+    width: 100%;
     font-size: 35px;
     font-weight: 500;
     letter-spacing: 1.1px;
-    margin: 0 0 0 550px; 
+    margin: 0 0 0 45%;
     padding: 60px 0 0 0;
     text-decoration-line:none;
     cursor: pointer;
     color: #212121;
+  
 }
 
 .linered{
@@ -364,7 +363,7 @@ input[type="text"]{
 }
 
 .container-lq{
-    width: 1280px;
+    width: 100%;
     height: auto;
     border: 0px solid red;
 }
@@ -377,10 +376,12 @@ input[type="text"]{
     color: #333333;
 }
 
+#applylq img{
+    width: 100%;
+}
+
 #lq-img{
     cursor: pointer;
-    height: 468px;
-    width: 880px;
     padding: 0 15px 0 0;
     border: 0px solid red;
 
@@ -388,8 +389,8 @@ input[type="text"]{
 
 #content-lq{
     width: 438.656px;
-    padding: 0 15px 0 15px;
-    margin:auto;
+    padding: 0 16px;
+    margin-top: 40px;
 }
 
 .img-des a{
@@ -426,16 +427,23 @@ input[type="text"]{
 
 .card-container{
     display: flex;
-    width: 1280px;
     border: 0px solid red;
-    margin: auto; 
+    justify-content: space-between;
+  
 }
-    
 
 .cardsimgs{
-    width: 436px;
-    height: 368px;
-    margin: auto;
+    border: 0px solid;
+    width: 31%;
+}
+
+.card-img{
+    width: 100%;
+}
+
+.card-img img{
+    width: 100%;
+    border: 0px solid red;
 }
 
 .card-title{
@@ -454,17 +462,16 @@ input[type="text"]{
 }
 
 .emp-container-rm{
-    width: 1280px;
-    height: 114f;
     border: 0px solid red;
-    height: 115px;
+    height: 110px;
     margin: auto;
 
     
 }
 .readm{
     text-align: right;
-    margin-top: 30px;
+    margin-top: 45px;
+    margin-right: 20px;
 }
 
 .readm a{
@@ -484,9 +491,10 @@ input[type="text"]{
 .bg-pink{
     background-color: #fe5c74;
     height: 960px;
-    width: 1903px;
+    width: 100%;
     display: block;
     color: #333333;
+    border: 0px solid ;
 
 }
 
@@ -496,7 +504,7 @@ input[type="text"]{
     font-weight: 500;
     font-size: 35px;
     letter-spacing: 1.1px;
-    margin: 0 0 0 850px;
+    margin: 0 0 0 800px;
     
 }
 
@@ -505,35 +513,42 @@ input[type="text"]{
 }
 
 .imgs-container{
-    width: 1280px;
     height: 710px;
     border: 0px solid rebeccapurple;
     margin: auto;
+    border: 0px solid #fff;
 }
 
 .img-contan{
     border: 0px solid;
-    width: 1280px;
+    width: 80%;
     display: flex;
-    /* padding: 0 0 40px 0; */
+    padding: 0 0 40px 0;
+    border: 0px solid #fff;
+    margin: auto;
+}
+
+#space-btw{
+    width:100%;
 }
 
 .img-slide{
-    width: 1280px;
+    width: 86%;
     height: 226px;
     border: 0px solid red;
     margin-top: 30px;
     display: flex;
+    margin: auto;
+    gap: 30px;
 }
 
 .img-lt a img{
-    width: 731px;
-    height: 423px;
+    width: 120%;
     border-radius: 10px;
     cursor: pointer;
-    display: block;
-
 }
+
+
 
 .content-right-over{
     border-radius: 10px;
@@ -542,18 +557,16 @@ input[type="text"]{
     background-color: #FFFFFF;
     color: #333333;
     margin: 50px 0 0 -68px;
-    padding: 30px 50px 30px 50px; 
+    padding: 30px 40px 30px 40px; 
+    z-index: 9;
 }
 
 #rt-over{
     line-height: 28px;
-    width: 488px;
-
 }
 
 .slide-shower a img{
-    height: 186px;
-    width: 349px;
+    width: 100%;
 }
 
 .resize-cont{
@@ -580,13 +593,13 @@ input[type="text"]{
 
 .hair-container{
     border: 0px solid red;
-    margin: 50px 312px 0 312px;
-   
-   
+    margin: auto;
+    margin-top: 40px;
+    width: 86%;
 }
 
 .hair-container .sbmenu-title > a{
-    margin: 0 0 0 500px;
+    margin: 0 0 0 650px;
 }
 
 #increase-br{
@@ -597,26 +610,29 @@ input[type="text"]{
 }
 
 .health-container{
-    margin: 50px 312px 0 312px;
+    margin: auto;
+    margin-top: 40px;
     padding: 0 15px 0 15px;
+    border: 0px soild red;
+    width: 86%;
    
 }
 
 .health-container .sbmenu-title > a{
-    margin: 0 0 0 440px;
+    margin: 0 0 0 570px;
 }
 
 
 .small-pink{
     background-color: #fe5c74;
     height: 420px;
-    width: 1903px;
+    width: 100%;
     display: block;
     color: #333333;
 }
 
 .container-news{
-    width: 1280px;
+    width: 86%; 
     height: 210px;
     margin: auto;
     border: 0px solid;
@@ -640,6 +656,18 @@ input[type="text"]{
     padding: 20px 10px 20px 10px;
 }
 
+#press{
+    margin: 0 0 0 800px;
+   
+}
+
+#test{
+    margin: 0 0 0 800px;
+   
+}
+
+
+
 .med-title{
     width: 1250px;
     font-size: 35px;
@@ -652,7 +680,7 @@ input[type="text"]{
 
 .doctor-container{
     
-    width: 1280px;
+    width: 86%;
     display: grid;
     margin: auto;
     grid-template-columns: repeat(3,1fr);
@@ -661,7 +689,7 @@ input[type="text"]{
 }
 
 .doctor-details{
-    border:0px solid;
+    border:00x solid;
     height: 110px;
     display: flex;
 }
@@ -713,9 +741,9 @@ input[type="text"]{
 }
 
 .container-testi{
-    width: 1280px;
+    width: 80%;
     height: 300px;
-    /* border: 1px solid; */
+    border: 0px solid; 
     margin: auto;
     margin-top: 20px;
     border-radius: 5px;
@@ -724,13 +752,12 @@ input[type="text"]{
     color: #333333;
     grid-template-columns: repeat(5,1fr);
    
-
 }
 
 
 
 .testi-details{
-    /* border: 1px solid; */
+    border: 0px solid;
     padding: 10px 20px 10px 20px;
     text-align: center;
     font-size: 16px;

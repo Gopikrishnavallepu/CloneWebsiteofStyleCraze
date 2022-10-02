@@ -15,17 +15,19 @@ body {
 
 
 .header{
-    width: 1908px;
     height:50px;
+    width: 100%;
     background-color: #fff;
     border: 0px solid;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     position: fixed;
+    z-index: 99;
 
 }
 
 body img:hover{
     opacity: .8;
+    z-index: -99;
 }
 
 .head-nav{
@@ -33,12 +35,6 @@ body img:hover{
     cursor: pointer;
 }
 
-#menu{
-    display: inline-block;
-    font-size: 30px;
-    color: #FF5A78;
-    cursor: pointer;
-}
 
 .img-ctr{
     text-align: center;
@@ -52,7 +48,7 @@ body img:hover{
 
 
 #menu{
-    display: inline-block;
+    /* display: none; */
     position: relative;
     left: 310px;
     top: 2px;
@@ -80,7 +76,7 @@ body img:hover{
     gap: 0px 20px;
 }
     */
- 
+
 
 .hide{
     display: none;
@@ -101,20 +97,28 @@ body img:hover{
     border: 0px dashed red;
     width: 1280px;
     box-sizing: border-box;
+    display: block;
+    /* background-color:#fff; */
+    
+
 }
 
 .sbmenu{
-    border: 0px dashed blue;
+    border: 1px dashed blue;
     margin: 10px 85px 10px 85px;
     box-sizing: border-box;
     display: flex;
     list-style:none;
+    width: 100%;
+    height: 40px;
     position: relative;
     left: 260px;
-    top: -50px;
+    top: -60px;
+    
     /* display: none; */
     justify-content: space-between;
     transition: 0.2s;
+    
 }
 
 
